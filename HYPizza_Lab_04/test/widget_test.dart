@@ -9,6 +9,6 @@ void main() {
     await tester.pumpWidget(const MyApp());
 
     // Verify that the app displays its home page.
-    expect(find.text('Home'), findsOneWidget);
+    expect(find.text('HY Pizza'), findsOneWidget);
   });
 }
