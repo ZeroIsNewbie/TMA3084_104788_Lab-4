@@ -25,8 +25,8 @@ class Home extends StatelessWidget {
             // Pizza shop image
             Image.asset(
               'assets/images/pizza.jpg',
-              height: 400.0,
-              width: 450.0,
+              height: 250.0,
+              width: 300.0,
               fit: BoxFit.cover,
             ),
 
