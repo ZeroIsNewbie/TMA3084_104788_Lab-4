@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class Contact extends StatelessWidget {
@@ -11,10 +10,7 @@ class Contact extends StatelessWidget {
         backgroundColor: Colors.deepOrange,
         title: const Text(
           'Contact Us',
-          style: TextStyle(
-            fontSize: 20.0,
-            color: Colors.white,
-          ),
+          style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
       ),
 

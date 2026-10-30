@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'home.dart';
 import 'menu.dart';
 import 'facebook.dart';
@@ -20,13 +21,8 @@ class MyApp extends StatelessWidget {
         'about': (context) => About(),
         'contact': (context) => Contact(),
         'twitter': (context) => Twitter(),
-        'facebook': (context) => Facebook()
+        'facebook': (context) => Facebook(),
       },
     );
   }
 }
-
-
-
-
-

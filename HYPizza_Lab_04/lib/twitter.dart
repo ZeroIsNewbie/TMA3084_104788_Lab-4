@@ -1,19 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-
 class Twitter extends StatefulWidget {
   const Twitter({super.key});
-
 
   @override
   State<Twitter> createState() => _TwitterState();
 }
 
-
 class _TwitterState extends State<Twitter> {
   late final WebViewController controller;
-
 
   @override
   void initState() {
@@ -29,10 +25,7 @@ class _TwitterState extends State<Twitter> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepOrange,
-        title: const Text(
-          'HY Pizza',
-          style: TextStyle(fontSize: 25.0),
-        ),
+        title: const Text('HY Pizza', style: TextStyle(fontSize: 25.0)),
       ),
       body: WebViewWidget(controller: controller),
     );

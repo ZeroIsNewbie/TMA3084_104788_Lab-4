@@ -10,17 +10,13 @@ class Menu extends StatelessWidget {
         backgroundColor: Colors.deepOrange,
         title: const Text(
           'Pizza Menu',
-          style: TextStyle(
-            fontSize: 20.0,
-            color: Colors.white,
-          ),
-        )
+          style: TextStyle(fontSize: 20.0, color: Colors.white),
+        ),
       ),
 
       // Pizza menu
       body: Column(
         children: [
-
           // Cheese Pizza
           Card(
             elevation: 5,
@@ -58,10 +54,7 @@ class Menu extends StatelessWidget {
 
                         Text(
                           'RM16.00',
-                          style: TextStyle(
-                            fontSize: 18.0,
-                            color: Colors.white,
-                          ),
+                          style: TextStyle(fontSize: 18.0, color: Colors.white),
                         ),
                       ],
                     ),
@@ -110,10 +103,7 @@ class Menu extends StatelessWidget {
 
                         Text(
                           'RM18.00',
-                          style: TextStyle(
-                            fontSize: 18.0,
-                            color: Colors.white,
-                          ),
+                          style: TextStyle(fontSize: 18.0, color: Colors.white),
                         ),
                       ],
                     ),
@@ -162,10 +152,7 @@ class Menu extends StatelessWidget {
 
                         Text(
                           'RM15.00',
-                          style: TextStyle(
-                            fontSize: 18.0,
-                            color: Colors.white,
-                          ),
+                          style: TextStyle(fontSize: 18.0, color: Colors.white),
                         ),
                       ],
                     ),

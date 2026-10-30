@@ -43,13 +43,9 @@ class Home extends StatelessWidget {
               },
               child: const Text(
                 'Pizza Menu',
-                style: TextStyle(
-                  fontSize: 18.0,
-                  color: Colors.deepOrange,
-                ),
+                style: TextStyle(fontSize: 18.0, color: Colors.deepOrange),
               ),
             ),
-
 
             const SizedBox(height: 10.0),
 
@@ -64,10 +60,7 @@ class Home extends StatelessWidget {
               },
               child: const Text(
                 'About Us',
-                style: TextStyle(
-                  fontSize: 18.0,
-                  color: Colors.deepOrange,
-                ),
+                style: TextStyle(fontSize: 18.0, color: Colors.deepOrange),
               ),
             ),
 
@@ -84,10 +77,7 @@ class Home extends StatelessWidget {
               },
               child: const Text(
                 'Contact Us',
-                style: TextStyle(
-                  fontSize: 18.0,
-                  color: Colors.deepOrange,
-                ),
+                style: TextStyle(fontSize: 18.0, color: Colors.deepOrange),
               ),
             ),
 
@@ -128,4 +118,3 @@ class Home extends StatelessWidget {
     );
   }
 }
-
