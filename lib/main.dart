@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
+
 import 'home.dart';
 import 'menu.dart';
 import 'facebook.dart';
-import 'twitter.dart';
-import 'contact.dart';
+//import 'twitter.dart';
+//import 'contact.dart';
 import 'about.dart';
 
 void main() {
@@ -21,8 +22,8 @@ class MyApp extends StatelessWidget {
       routes: {
         'menu': (context) => Menu(),
         'about': (context) => About(),
-        'contact': (context) => Contact(),
-        'twitter': (context) => Twitter(),
+        //'contact': (context) => Contact(),
+        //'twitter': (context) => Twitter(),
         'facebook': (context) => Facebook(),
       },
     );
