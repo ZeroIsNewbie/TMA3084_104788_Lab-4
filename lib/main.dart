@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 import 'menu.dart';
 import 'facebook.dart';
-//import 'twitter.dart';
+import 'twitter.dart';
 //import 'contact.dart';
 import 'about.dart';
 
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         'menu': (context) => Menu(),
         'about': (context) => About(),
         //'contact': (context) => Contact(),
-        //'twitter': (context) => Twitter(),
+        'twitter': (context) => Twitter(),
         'facebook': (context) => Facebook(),
       },
     );
