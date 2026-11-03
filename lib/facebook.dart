@@ -11,7 +11,6 @@ class Facebook extends StatefulWidget {
 
 // State class for Facebook
 class _FacebookState extends State<Facebook> {
-
   // WebViewController to control the WebView
   late final WebViewController controller;
 
@@ -22,9 +21,7 @@ class _FacebookState extends State<Facebook> {
     // Initialize the WebViewController
     controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadRequest(
-        Uri.parse('https://www.facebook.com'),
-      );
+      ..loadRequest(Uri.parse('https://www.facebook.com'));
   }
 
   @override
@@ -36,9 +33,7 @@ class _FacebookState extends State<Facebook> {
         centerTitle: true,
       ),
 
-      body: WebViewWidget(
-        controller: controller,
-      ),
+      body: WebViewWidget(controller: controller),
     );
   }
 }
